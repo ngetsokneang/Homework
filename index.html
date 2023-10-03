@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DCC</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Khmer:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="navbar navbar-expand-md bg-light sticky-top">
+        <div class="container">
+            <a href="#" class="navbar-brand">
+                <img src="./photo/logo.png" alt="Logo" width="45" height="50" class="d-inline-block align-text-top">
+            </a>
+            <form role="search">
+                <input class="form-control" type="search" placeholder="ស្វែងរក" aria-label="Search">
+            </form>
+            <button class="navbar-toggler" data-bs-toggle="collaps" data-bs-targe="#nav">
+                <img src="./photo/play-store.png" alt="play-store" width="75" height="auto">
+            </button>
+            <div class="collaps navbar-collapse flex-row justify-content-end" id="nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item px-3">
+                        <img src="./photo/home.svg" alt="home" class="px-3">
+                        <a href="#" class="nav-link">ទំព័រដើម</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <img src="./photo/news.svg" alt="home" class="px-2">
+                        <a href="#" class="nav-link">អត្ថបថ</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <img src="./photo/job.svg" alt="home" class="px-2">
+                        <a href="#" class="nav-link">ការងារ</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <img src="./photo/notification.svg" alt="home" class="px-2">
+                        <a href="#" class="nav-link">ដំណឹង</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <img src="./photo/undraw_profile.svg" alt="home" class="px-1">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            ខ្ញុំ
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="nav-item">
+                                <a class="dropdown-item" href="#">
+                                    <img src="./photo/undraw_profile.svg" alt="profile-dropdown" width="30" height="30">
+                                    ង៉ែត សុខនាង
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="dropdown-item" href="#"><i class="fa-solid fa-gear"></i>ការកំណត់</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li class="nav-item">
+                                <a class="dropdown-item" href="#"><i class="fa-solid fa-power-off"></i>ចាកចេញពីគណនី</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <main class="mt-4">
+        <div class="container">
+            <div class="row my-6">
+                <div class="col-xl-8">
+                    <div class="card mb-4">
+                        <div class="card-header bg-transparent border-0 d-flex justify-content-between">
+                            <h5>ការងារ</h5>
+                            <p><a href="#" class="nav-link">មើលបន្ថែមទៀត</a></p>
+                        </div>
+                        <span class="border border-secondary-subtle rounded-3 m-3">
+                            <div class="card-body d-flex">
+                                <div class="img">
+                                    <a href="#"><img src="./photo/a.png" alt="1" width="80" height="auto"></a>
+                                </div>
+                                <div class="title p-lg-3">
+                                    <h5 class="card-title">
+                                        Digital Marketing
+                                    </h5>
+                                    <p class="card-text fs-6">Workingna (Cambodia) Co.,LTD</p>
+                                </div>
+                            </div>
+                            <div class="button m-3 mt-0 d-flex justify-content-between">
+                                <div class="button-left">
+                                    <button class="btn-outline-secondary rounded-3 border-0">Phnom Penh</button>
+                                    <button class="btn-outline-secondary rounded-3 border-0">Full Time</button>
+                                </div>
+                                <div class="date">
+                                    <p class="fs-6">October 21 2023</p>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="card mb-4">
+                        <div class="first-content d-flex">
+                            <div class="img m-3">
+                                <a href="#"><img src="./photo/logo.png" alt="1" width="30" height="auto"></a>
+                            </div>
+                            <div class="title">
+                                <p class="card-text fs-6 mt-3">សហគមន៍ឌីជីថលកម្ពុជា Digital Community of Cambodia</p>
+                            </div>
+                        </div>
+                        <div class="heading-content d-flex justify-content-between">
+                            <div class="content-title m-3">
+                                <h5>សូមទស្សនាវីដេអូពីសហគមន៍ឌីជីថលកម្ពុជា</h5>
+                                <p class="card-text fs-6 mt-3">
+                                    បច្ចេកវិទ្យាដើរតួយ៉ាងសំខាន់សម្រាប់មនុស្សគ្រប់គ្នានាសម័យឌីជីថល
+                                </p>
+                            </div>
+                            <div class="box-img">
+                                <img src="./photo/jo.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="footer border-2 d-flex justify-content-between">
+                            <div class="icons m-3 d-flex">
+                                <div class="heart">
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="num">
+                                    <p class="fs-6">4</p>
+                                </div>
+                                <div class="chat">
+                                    <i class="fa-brands fa-rocketchat"></i>
+                                </div>
+                                <div class="num1">
+                                    <p class="fs-6 ms-1">0</p>
+                                </div>
+                            </div>
+                            <div class="button-left">
+                                <button class="btn-outline-secondary rounded-pill border-0 me-3">ការជូនដំណឹង</button>
+                                <button class="btn-outline-secondary rounded-pill border-0">ចំណេះដឹងដីជីថល​ Digital
+                                    Legacy</button>
+                            </div>
+                            <div class="date m-2">
+                                <div class="dates">
+                                    <p class="fs-6">September 21, 2023</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-4">
+                        <div class="first-content d-flex">
+                            <div class="img m-3">
+                                <a href="#"><img src="./photo/logo.png" alt="1" width="30" height="auto"></a>
+                            </div>
+                            <div class="title">
+                                <p class="card-text fs-6 mt-3">សហគមន៍ឌីជីថលកម្ពុជា Digital Community of Cambodia</p>
+                            </div>
+                        </div>
+                        <div class="heading-content d-flex justify-content-between">
+                            <div class="content-title m-3">
+                                <h5>សូមទស្សនាវីដេអូពីសហគមន៍ឌីជីថលកម្ពុជា</h5>
+                                <p class="card-text fs-6 mt-3">
+                                    បច្ចេកវិទ្យាដើរតួយ៉ាងសំខាន់សម្រាប់មនុស្សគ្រប់គ្នានាសម័យឌីជីថល
+                                </p>
+                            </div>
+                            <div class="box-img">
+                                <img src="./photo/pic1.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="footer border-2 d-flex justify-content-between">
+                            <div class="icons m-3 d-flex">
+                                <div class="heart">
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="num">
+                                    <p class="fs-6">4</p>
+                                </div>
+                                <div class="chat">
+                                    <i class="fa-brands fa-rocketchat"></i>
+                                </div>
+                                <div class="num1">
+                                    <p class="fs-6 ms-1">0</p>
+                                </div>
+                            </div>
+                            <div class="button-left">
+                                <button class="btn-outline-secondary rounded-pill border-0 me-3">ការជូនដំណឹង</button>
+                                <button class="btn-outline-secondary rounded-pill border-0">ចំណេះដឹងដីជីថល​ Digital
+                                    Legacy</button>
+                            </div>
+                            <div class="date m-2">
+                                <div class="dates">
+                                    <p class="fs-6">September 21, 2023</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-4">
+                        <div class="first-content d-flex">
+                            <div class="img m-3">
+                                <a href="#"><img src="./photo/logo.png" alt="1" width="30" height="auto"></a>
+                            </div>
+                            <div class="title">
+                                <p class="card-text fs-6 mt-3">សហគមន៍ឌីជីថលកម្ពុជា Digital Community of Cambodia</p>
+                            </div>
+                        </div>
+                        <div class="heading-content d-flex justify-content-between">
+                            <div class="content-title m-3">
+                                <h5>អបអរសាទរ ការដាក់ដំណើរការជាផ្លូវការថ្នាលសហគមន៍ឌីជីថលកម្ពុជា (ស.ឌ.ក.)</h5>
+                                <p class="card-text fs-6 mt-3">
+                                    បច្ចេកវិទ្យាដើរតួយ៉ាងសំខាន់សម្រាប់មនុស្សគ្រប់គ្នានាសម័យឌីជីថល
+                                </p>
+                            </div>
+                            <div class="box-img">
+                                <!-- <div class="overlay position-absolute"></div> -->
+                                <img src="./photo/pic2.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="footer border-2 d-flex justify-content-between">
+                            <div class="icons m-3 d-flex">
+                                <div class="heart">
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="num">
+                                    <p class="fs-6">4</p>
+                                </div>
+                                <div class="chat">
+                                    <i class="fa-brands fa-rocketchat"></i>
+                                </div>
+                                <div class="num1">
+                                    <p class="fs-6 ms-1">0</p>
+                                </div>
+                            </div>
+                            <div class="button-left">
+                                <button class="btn-outline-secondary rounded-pill border-0 me-3">ការជូនដំណឹង</button>
+                                <button class="btn-outline-secondary rounded-pill border-0">ចំណេះដឹងដីជីថល​ Digital
+                                    Legacy</button>
+                            </div>
+                            <div class="date m-2">
+                                <div class="dates">
+                                    <p class="fs-6">September 21, 2023</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-4">
+                        <div class="first-content d-flex">
+                            <div class="img m-3">
+                                <a href="#"><img src="./photo/logo.png" alt="1" width="30" height="auto"></a>
+                            </div>
+                            <div class="title">
+                                <p class="card-text fs-6 mt-3">សហគមន៍ឌីជីថលកម្ពុជា Digital Community of Cambodia</p>
+                            </div>
+                        </div>
+                        <div class="heading-content d-flex justify-content-between">
+                            <div class="content-title m-3">
+                                <h5>សូមទស្សនាវីដេអូពីសហគមន៍ឌីជីថលកម្ពុជា</h5>
+                                <p class="card-text fs-6 mt-3">
+                                    បច្ចេកវិទ្យាដើរតួយ៉ាងសំខាន់សម្រាប់មនុស្សគ្រប់គ្នានាសម័យឌីជីថល
+                                </p>
+                            </div>
+                            <div class="box-img">
+                                <img src="./photo/pic3.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="footer border-2 d-flex justify-content-between">
+                            <div class="icons m-3 d-flex">
+                                <div class="heart">
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="num">
+                                    <p class="fs-6">4</p>
+                                </div>
+                                <div class="chat">
+                                    <i class="fa-brands fa-rocketchat"></i>
+                                </div>
+                                <div class="num1">
+                                    <p class="fs-6 ms-1">0</p>
+                                </div>
+                            </div>
+                            <div class="button-left">
+                                <button class="btn-outline-secondary rounded-pill border-0 me-3">ការជូនដំណឹង</button>
+                                <button class="btn-outline-secondary rounded-pill border-0">ចំណេះដឹងដីជីថល​ Digital
+                                    Legacy</button>
+                            </div>
+                            <div class="date m-2">
+                                <div class="dates">
+                                    <p class="fs-6">September 21, 2023</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-4">
+                        <div class="first-content d-flex">
+                            <div class="img m-3">
+                                <a href="#"><img src="./photo/logo.png" alt="1" width="30" height="auto"></a>
+                            </div>
+                            <div class="title">
+                                <p class="card-text fs-6 mt-3">សហគមន៍ឌីជីថលកម្ពុជា Digital Community of Cambodia</p>
+                            </div>
+                        </div>
+                        <div class="heading-content d-flex justify-content-between">
+                            <div class="content-title m-3">
+                                <h5>សូមទស្សនាវីដេអូពីសហគមន៍ឌីជីថលកម្ពុជា</h5>
+                                <p class="card-text fs-6 mt-3">
+                                    បច្ចេកវិទ្យាដើរតួយ៉ាងសំខាន់សម្រាប់មនុស្សគ្រប់គ្នានាសម័យឌីជីថល
+                                </p>
+                            </div>
+                            <div class="box-img">
+                                <img src="./photo/pic3.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="footer border-2 d-flex justify-content-between">
+                            <div class="icons m-3 d-flex">
+                                <div class="heart">
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="num">
+                                    <p class="fs-6">4</p>
+                                </div>
+                                <div class="chat">
+                                    <i class="fa-brands fa-rocketchat"></i>
+                                </div>
+                                <div class="num1">
+                                    <p class="fs-6 ms-1">0</p>
+                                </div>
+                            </div>
+                            <div class="button-left">
+                                <button class="btn-outline-secondary rounded-pill border-0 me-3">ការជូនដំណឹង</button>
+                                <button class="btn-outline-secondary rounded-pill border-0">ចំណេះដឹងដីជីថល​ Digital
+                                    Legacy</button>
+                            </div>
+                            <div class="date m-2">
+                                <div class="dates">
+                                    <p class="fs-6">September 21, 2023</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4">
+                    <div class="card p-3 pb-3">
+                        <div class="card-header bg-transparent border-0 d-flex justify-content-between">
+                            <h5>អត្ថបទពេញនិយម</h5>
+                            <p></p>
+                        </div>
+                        <div class="left">
+                            <!-- <span class="border border-secondary rounded-3 m-3"> -->
+                            <div class="card-body border border-secondary-subtle rounded-3 me-3 ms-3">
+                                <div class="sidebar d-flex justify-content-between">
+                                    <div class="sidebar-control">
+                                        <div class="img d-flex">
+                                            <a href="#"><img src="./photo/logo sidebar.png" alt="1" width="20"
+                                                    height="20" class="border rounded-circle"></a>
+                                            <p class="card-title">
+                                                CADT Coding Club
+                                            </p>
+                                        </div>
+                                        <div class="title">
+                                            <h6 class="card-text fs-6 fw-bold">តើ UX/UI Design ជាអ្វី? </h6>
+                                        </div>
+                                    </div>
+
+                                    <div class="right-img">
+                                        <a href="#" class="nav-link"><img src="./photo/pic3.jpg" alt="2" width="50"
+                                                height="50"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body border border-secondary-subtle rounded-3 me-3 ms-3 mt-3">
+                                <div class="sidebar d-flex justify-content-between">
+                                    <div class="sidebar-control">
+                                        <div class="img d-flex">
+                                            <a href="#"><img src="./photo/logo sidebar.png" alt="1" width="20"
+                                                    height="20" class="border rounded-circle"></a>
+                                            <p class="card-title">
+                                                CADT Coding Club
+                                            </p>
+                                        </div>
+                                        <div class="title">
+                                            <h6 class="card-text fs-6 fw-bold">បច្ចេកវិទ្យាពេញនិយមទាំង ១២</h6>
+                                        </div>
+                                    </div>
+
+                                    <div class="right-img">
+                                        <a href="#" class="nav-link"><img src="./photo/n2.png" alt="2" width="50"
+                                                height="50"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body border border-secondary-subtle rounded-3 me-3 ms-3 mt-3">
+                                <div class="sidebar d-flex justify-content-between">
+                                    <div class="sidebar-control">
+                                        <div class="img d-flex">
+                                            <a href="#"><img src="./photo/logo sidebar.png" alt="1" width="20"
+                                                    height="20" class="border rounded-circle"></a>
+                                            <p class="card-title">
+                                                CADT Coding Club
+                                            </p>
+                                        </div>
+                                        <div class="title">
+                                            <h6 class="card-text fs-6 fw-bold">
+                                                ផែនទីបង្ហាញផ្លូវដើម្បីក្លាយជាអ្នកអភិវឌ្ឍន៍ Front-End (Front</h6>
+                                        </div>
+                                    </div>
+
+                                    <div class="right-img">
+                                        <a href="#" class="nav-link"><img src="./photo/n3.png" alt="3" width="50"
+                                                height="50"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card p-3 pb-3 my-3">
+                        <div class="card-header bg-transparent border-0 d-flex justify-content-between">
+                            <h5>ការងារថ្មីៗ</h5>
+                            <p></p>
+                        </div>
+                        <div class="left">
+                            <!-- <span class="border border-secondary rounded-3 m-3"> -->
+                            <div class="card-body border border-secondary-subtle rounded-3 me-3 ms-3">
+                                <div class="sidebar d-flex justify-content-between">
+                                    <div class="sidebar-control">
+                                        <div class="img d-flex">
+                                            <a href="#"><img src="./photo/logo sidebar.png" alt="1" width="20"
+                                                    height="20" class="border rounded-circle"></a>
+                                            <p class="card-title">
+                                                CADT Coding Club
+                                            </p>
+                                        </div>
+                                        <div class="title">
+                                            <h6 class="card-text fs-6 fw-bold">តើ UX/UI Design ជាអ្វី? </h6>
+                                        </div>
+                                    </div>
+
+                                    <div class="right-img">
+                                        <a href="#" class="nav-link"><img src="./photo/pic3.jpg" alt="2" width="50"
+                                                height="50"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body border border-secondary-subtle rounded-3 me-3 ms-3 mt-3">
+                                <div class="sidebar d-flex justify-content-between">
+                                    <div class="sidebar-control">
+                                        <div class="img d-flex">
+                                            <a href="#"><img src="./photo/logo sidebar.png" alt="1" width="20"
+                                                    height="20" class="border rounded-circle"></a>
+                                            <p class="card-title">
+                                                CADT Coding Club
+                                            </p>
+                                        </div>
+                                        <div class="title">
+                                            <h6 class="card-text fs-6 fw-bold">បច្ចេកវិទ្យាពេញនិយមទាំង ១២</h6>
+                                        </div>
+                                    </div>
+
+                                    <div class="right-img">
+                                        <a href="#" class="nav-link"><img src="./photo/n2.png" alt="2" width="50"
+                                                height="50"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body border border-secondary-subtle rounded-3 me-3 ms-3 mt-3">
+                                <div class="sidebar d-flex justify-content-between">
+                                    <div class="sidebar-control">
+                                        <div class="img d-flex">
+                                            <a href="#"><img src="./photo/logo sidebar.png" alt="1" width="20"
+                                                    height="20" class="border rounded-circle"></a>
+                                            <p class="card-title">
+                                                CADT Coding Club
+                                            </p>
+                                        </div>
+                                        <div class="title">
+                                            <h6 class="card-text fs-6 fw-bold">
+                                                ផែនទីបង្ហាញផ្លូវដើម្បីក្លាយជាអ្នកអភិវឌ្ឍន៍ Front-End (Front</h6>
+                                        </div>
+                                    </div>
+
+                                    <div class="right-img">
+                                        <a href="#" class="nav-link"><img src="./photo/n3.png" alt="3" width="50"
+                                                height="50"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</html>

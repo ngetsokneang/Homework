@@ -1,0 +1,123 @@
+body{
+    background-color: #ddd;
+}
+.navbar{
+    height: 70px;
+}
+input[type="search"]{
+    width: 300px;
+    border-radius: 8px;
+}
+.nav-link,.form-control{
+    font-family: 'Noto Sans Khmer', sans-serif;
+    font-size: 12px;
+}
+.nav-item{
+    padding: 0 15px;
+}
+.dropdown-item{
+    font-family: 'Noto Sans Khmer', sans-serif;
+}
+.dropdown-item img{
+    margin-left: -10px;
+}
+.nav-link{
+    color: black;
+}
+.fa-gear,.fa-power-off{
+    margin-right: 10px;
+}
+.dropdown-menu{
+    margin-top: 350px;
+}
+.title,h5{
+    font-family: 'Noto Sans Khmer', sans-serif;
+}
+.container-fluid{
+    background-color: #ddd;
+}
+.content-title{
+    padding-top: -70px;
+}
+.card-text{
+    font-family: 'Noto Sans Khmer', sans-serif;
+}
+.btn-outline-secondary{
+    font-family: 'Noto Sans Khmer', sans-serif;
+}
+.box-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 7px;
+    margin-right: 15px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.box-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+}
+.box-img img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.overlay{
+    transition: 0.5s;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+.overlay:hover{
+    background-color: black;
+    cursor: pointer;
+}
+.fa-heart{
+    margin-right: 5px;
+}
+.fa-rocketchat{
+    margin-left: 15px;
+}
+.icons{
+    position: relative;
+}
+.icons .fa-heart{
+    position: absolute;
+    top: -10px;
+}
+.icons .fa-rocketchat{
+    position: absolute;
+    top: -10px;
+    left: 30px;
+}
+.icons .num{
+    position: absolute;
+    top: -15px;
+    left: 25px;
+}
+.icons .num1{
+    position: absolute;
+    top: -15px;
+    left: 70px;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
